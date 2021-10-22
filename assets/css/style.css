@@ -386,12 +386,14 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
   overflow-y: auto;
   transition: 0.3s;
+  color: #fff;
 }
 
 .navbar-mobile > ul > li {
+  color: #fff;
   padding: 0;
 }
 
@@ -402,7 +404,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #060c22;
+  color: #fff;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
